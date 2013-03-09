@@ -43,3 +43,11 @@ h3 {
 }
 
 /* --------------------------- General Paragraph Formatting ------------------- */
+
+
+
+/*---------------------------- Site Intent Section ----------------------------*/
+
+section.siteIntent {
+	width: 50%;
+}
