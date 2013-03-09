@@ -27,21 +27,20 @@ body {
 /* --------------------------- General Heading Formatting ------------------- */
 
 h1 {
-	font-size: 2.25em;
 	color: #6c5f57;
-	font: bold, baskerville;
+	font: 2.25em, bold, baskerville;
 	clear: both;
 	margin: 0.313em;
 }
 
 h2 {
-	font-size: 2em;
+	font: 2em, bold, baskerville;
 	color: #6c5f57;
 	font-style: bold;
 }
 
 h3 {
-	font-size: 1.5em;
+	font: 1.5em, bold, baskerville;
 	color: #6c5f57;
 	font-style: bold;
 }
