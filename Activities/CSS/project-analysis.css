@@ -56,8 +56,16 @@ section.siteIntent {
 	margin: 0.626em;
 }
 
+/*---------------------------- Targeted Audience ----------------------------*/
+
+section.targetAudience {
+	width: 45%;
+	margin: 0.626em;
+}
+
 /*---------------------------- Competitive Analysis Section ----------------------------*/
 
 section.competitiveAnalysis {
 	clear: both;	
+	width: 90%;
 }
