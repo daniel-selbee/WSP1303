@@ -29,7 +29,7 @@ body {
 h1 {
 	font-size: 2.25em;
 	color: #6c5f57;
-	font-style: bold, baskerville;
+	font: bold, baskerville;
 	clear: both;
 	margin: 0.313em;
 }
