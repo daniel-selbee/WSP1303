@@ -78,4 +78,6 @@ section.competitiveAnalysis {
 	clear: both;	
 	width: 90%;
 	margin: 0.626em;
+	border: 0.152em solid black;
+	border-radius: 0.625em;
 }
