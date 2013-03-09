@@ -27,16 +27,19 @@ body {
 h1 {
 	font-size: 2.5em;
 	color: #a2d5c6;
+	font-style: bold;
 }
 
 h2 {
 	font-size: 2em;
 	color: #a2d5c6;
+	font-style: bold;
 }
 
 h3 {
 	font-size: 1.5em;
 	color: #a2d5c6;
+	font-style: bold;
 }
 
 /* --------------------------- General Paragraph Formatting ------------------- */
