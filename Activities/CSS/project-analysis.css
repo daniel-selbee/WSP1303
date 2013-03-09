@@ -1,18 +1,24 @@
 /* --------------------------- General Body Formatting ------------------- */
 body {
 	width: 90%;
-	border-radius: 0.313em;
-	border: 0.188em solid #d1a82c;
 	margin: 0 auto;
 }
 
-/* --------------------------- General Wrapper Formatting ------------------- */
+/* --------------------------- General Inner Box Formatting ------------------- */
 
-#wrapper {
+#innerbox {
 	background-color: #fcfbfc;
 	border-radius: 0.313em;
 	border: 0.188em solid black;
 	margin: 0.626em;
+}
+
+/* --------------------------- General Outer Box Formatting ------------------- */
+
+#outerbox {
+	background-color: #bab0a7;
+	border-radius: 0.313em;
+	border: 0.188em solid #d1a82c;
 }
 
 /* --------------------------- General Heading Formatting ------------------- */
