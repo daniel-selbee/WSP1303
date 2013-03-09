@@ -11,7 +11,7 @@ body {
 	background-color: #fcfbfc;
 	border-radius: 0.625em;
 	margin: 0.626em;
-	overflow: inherit;
+	overflow: auto;
 }
 
 /* --------------------------- General Outer Box Formatting ------------------- */
@@ -21,7 +21,7 @@ body {
 	border-radius: 0.313em;
 	border:  #bab0a7 0.188em solid ;
 	margin-top: 0.626em;
-	overflow: inherit;
+	overflow: auto;
 }
 
 /* --------------------------- General Heading Formatting ------------------- */
@@ -54,4 +54,10 @@ section.siteIntent {
 	width: 45%;
 	float: left;
 	margin: 0.626em;
+}
+
+/*---------------------------- Competitive Analysis Section ----------------------------*/
+
+section.competitiveAnalysis {
+	clear: both;	
 }
