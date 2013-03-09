@@ -28,19 +28,19 @@ body {
 
 h1 {
 	color: #6c5f57;
-	font: 2.25em, bold, baskerville;
+	font: 2.25em, bold, 'Libre Baskerville', serif;
 	clear: both;
 	margin: 0.313em;
 }
 
 h2 {
-	font: 2em, bold, baskerville;
+	font: 2em, bold, 'Libre Baskerville', serif;
 	color: #6c5f57;
 	font-style: bold;
 }
 
 h3 {
-	font: 1.5em, bold, baskerville;
+	font: 1.5em, bold, 'Libre Baskerville', serif;
 	color: #6c5f57;
 	font-style: bold;
 }
