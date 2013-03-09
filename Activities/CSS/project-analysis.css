@@ -16,9 +16,9 @@ body {
 /* --------------------------- General Outer Box Formatting ------------------- */
 
 #outerbox {
-	background-color: #bab0a7;
+	background-color: #fcfbfc;
 	border-radius: 0.313em;
-	border: #fcfbfc 0.188em solid ;
+	border:  #bab0a7 0.188em solid ;
 	margin-top: 0.626em;
 }
 
