@@ -59,6 +59,8 @@ section.siteIntent {
 	padding: 0.313em;
 	border: 0.152em solid black;
 	border-radius: 0.625em;
+	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
 }
 
 /*---------------------------- Targeted Audience ----------------------------*/
@@ -70,6 +72,8 @@ section.targetedAudience {
 	padding: 0.313em;
 	border: 0.152em solid black;
 	border-radius: 0.625em;
+	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
 }
 
 /*---------------------------- Competitive Analysis Section ----------------------------*/
@@ -81,4 +85,6 @@ section.competitiveAnalysis {
 	border: 0.152em solid black;
 	border-radius: 0.625em;
 	padding: 0.313em;
+	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
 }
