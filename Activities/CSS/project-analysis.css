@@ -57,7 +57,7 @@ section.siteIntent {
 	float: left;
 	margin: 0.313em;
 	padding: 0.313em;
-	border: 0.313em solid black;
+	border: 0.152em solid black;
 	border-radius: 0.625em;
 }
 
@@ -68,7 +68,7 @@ section.targetedAudience {
 	margin: 0.313em;
 	float: left;
 	padding: 0.313em;
-	border: 0.313em solid black;
+	border: 0.152em solid black;
 	border-radius: 0.625em;
 }
 
