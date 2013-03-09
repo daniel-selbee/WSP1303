@@ -57,10 +57,10 @@ section.siteIntent {
 	float: left;
 	margin: 0.313em;
 	padding: 0.313em;
-	border: 0.152em solid black;
+	border: 0.152em solid #bab0a7;
 	border-radius: 0.625em;
-	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
-	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -webkit-linear-gradient(top, #ffffff, #eaeaea);
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
 }
 
 /*---------------------------- Targeted Audience ----------------------------*/
@@ -70,10 +70,10 @@ section.targetedAudience {
 	margin: 0.313em;
 	float: left;
 	padding: 0.313em;
-	border: 0.152em solid black;
+	border: 0.152em solid #bab0a7;
 	border-radius: 0.625em;
-	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
-	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -webkit-linear-gradient(top, #ffffff, #eaeaea);
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
 }
 
 /*---------------------------- Competitive Analysis Section ----------------------------*/
@@ -82,9 +82,9 @@ section.competitiveAnalysis {
 	clear: both;	
 	width: 90%;
 	margin: 0.313em;
-	border: 0.152em solid black;
+	border: 0.152em solid #bab0a7;
 	border-radius: 0.625em;
 	padding: 0.313em;
-	background: -webkit-linear-gradient(top, #ffffff, #d7d7d7);
-	background: -moz-linear-gradient(top, #ffffff, #d7d7d7);
+	background: -webkit-linear-gradient(top, #ffffff, #eaeaea);
+	background: -moz-linear-gradient(top, #ffffff, #eaeaea);
 }
