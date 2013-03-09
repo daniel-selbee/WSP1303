@@ -8,7 +8,7 @@ body {
 /* --------------------------- General Inner Box Formatting ------------------- */
 
 #innerbox {
-	background-color: #f8f5ec;
+	background-color: #fcfbfc;
 	border-radius: 0.625em;
 	margin: 0.626em;
 }
@@ -16,7 +16,7 @@ body {
 /* --------------------------- General Outer Box Formatting ------------------- */
 
 #outerbox {
-	background-color: #fcfbfc;
+	background-color: #f8f5ec;
 	border-radius: 0.313em;
 	border:  #bab0a7 0.188em solid ;
 	margin-top: 0.626em;
