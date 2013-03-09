@@ -5,7 +5,7 @@ body {
 	border: 0.188em solid #d1a82c;
 	margin: 0 auto;
 	background: #6c5f57;
-	overflow: hidden;
+	background-clip:content-box;
 }
 /* --------------------------- General Heading Formatting ------------------- */
 
