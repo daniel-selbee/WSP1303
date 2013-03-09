@@ -64,7 +64,7 @@ section.siteIntent {
 
 section.targetedAudience {
 	width: 40%;
-	margin-left: 0.313em;
+	margin: 0.313em;
 	float: left;
 	padding: 0.313em;
 	border: 0.313 solid black;
