@@ -58,6 +58,7 @@ section.siteIntent {
 	margin: 0.313em;
 	padding: 0.313em;
 	border: 0.313em solid black;
+	border-radius: 0.625em;
 }
 
 /*---------------------------- Targeted Audience ----------------------------*/
@@ -68,6 +69,7 @@ section.targetedAudience {
 	float: left;
 	padding: 0.313em;
 	border: 0.313em solid black;
+	border-radius: 0.625em;
 }
 
 /*---------------------------- Competitive Analysis Section ----------------------------*/
