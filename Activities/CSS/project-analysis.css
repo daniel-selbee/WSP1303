@@ -50,7 +50,9 @@ h3 {
 
 /* --------------------------- General Paragraph Formatting ------------------- */
 
-
+p {
+	font-family: 'Open Sans', sans-serif;
+}
 
 /*---------------------------- Site Intent Section ----------------------------*/
 
