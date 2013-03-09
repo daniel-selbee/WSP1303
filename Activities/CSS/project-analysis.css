@@ -2,13 +2,13 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-color: #f8f5ec;
+	background-color: #6c5f57;
 }
 
 /* --------------------------- General Inner Box Formatting ------------------- */
 
 #innerbox {
-	background-color: #fcfbfc;
+	background-color: #f8f5ec;
 	border-radius: 0.625em;
 	margin: 0.626em;
 }
@@ -18,7 +18,7 @@ body {
 #outerbox {
 	background-color: #bab0a7;
 	border-radius: 0.313em;
-	border: 0.188em solid #6c5f57;
+	border: #fcfbfc 0.188em solid ;
 	margin-top: 0.626em;
 }
 
