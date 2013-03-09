@@ -4,8 +4,7 @@ body {
 	border-radius: 0.313em;
 	border: 0.188em solid #d1a82c;
 	margin: 0 auto;
-	background: #6c5f57;
-	background-clip:content-box;
+	background-color: #6c5f57;
 }
 /* --------------------------- General Heading Formatting ------------------- */
 
