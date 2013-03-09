@@ -63,6 +63,7 @@ section.siteIntent {
 section.targetAudience {
 	width: 40%;
 	margin: 0.626em;
+	float: right;
 }
 
 /*---------------------------- Competitive Analysis Section ----------------------------*/
