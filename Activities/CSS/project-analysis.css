@@ -5,6 +5,13 @@ body {
 	border: 0.188em solid #d1a82c;
 	margin: 0 auto;
 }
+
+/* --------------------------- General Wrapper Formatting ------------------- */
+
+#wrapper {
+	background-color: #fcfbfc;
+}
+
 /* --------------------------- General Heading Formatting ------------------- */
 
 /* --------------------------- General Paragraph Formatting ------------------- */
