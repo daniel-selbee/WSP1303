@@ -53,6 +53,12 @@ p {
 	text-indent: 1.25em;
 }
 
+/* --------------------------- General List Formatting ------------------- */
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
 /*---------------------------- Site Intent Section ----------------------------*/
 
 section.siteIntent {
