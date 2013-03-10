@@ -111,7 +111,8 @@ th {
 	color: #6c5f57;
 	font-family: 'Fenix', serif;
 	font-size: 1.5em;
-	padding: 0.626em;
+	padding-left: 1em;
+	padding-right: 1em;
 	border: 0.152em solid #bab0a7;
 	text-align: center;
 }
