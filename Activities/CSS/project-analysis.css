@@ -105,6 +105,7 @@ table {
 	border-radius: 0.625em;
 	margin: 0.313em;
 	padding: 0.152em;
+	width: 90%;
 }
 
 th {
@@ -123,5 +124,5 @@ td {
 	padding: 0.152em;
 	border: 0.152em solid #bab0a7;
 	color: #6c5f57;
-	text-align: left;
+	text-align: center;
 }
