@@ -113,6 +113,7 @@ th {
 	font-size: 1.5em;
 	padding: 0.313em;
 	border: 0.152em solid #bab0a7;
+	text-align: center;
 }
 
 td {
@@ -121,4 +122,5 @@ td {
 	padding: 0.313em;
 	border: 0.152em solid #bab0a7;
 	color: #6c5f57;
+	text-align: center;
 }
