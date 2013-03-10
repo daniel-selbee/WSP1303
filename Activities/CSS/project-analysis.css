@@ -97,3 +97,21 @@ section.competitiveAnalysis {
 	background: -webkit-linear-gradient(top, #ffffff, #f1f1f1);
 	background: -moz-linear-gradient(top, #ffffff, #f1f1f1);
 }
+
+/*--------------------------------------CA Table ---------------------------------------*/
+
+table {
+	border: 0.152em solid #bab0a7;
+	border-radius: 0.625em;
+	margin: 0.313em;
+}
+
+th {
+	color: #6c5f57;
+	font-family: 'Fenix', serif;
+	
+}
+
+td {
+	font-family: 'Open Sans', sans-serif;
+}
