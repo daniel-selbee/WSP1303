@@ -111,8 +111,8 @@ th {
 	color: #6c5f57;
 	font-family: 'Fenix', serif;
 	font-size: 1.5em;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 1.25em;
+	padding-right: 1.25em;
 	border: 0.152em solid #bab0a7;
 	text-align: center;
 }
@@ -120,7 +120,8 @@ th {
 td {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
-	padding: 0.313em;
+	padding: 0.152em;
 	border: 0.152em solid #bab0a7;
 	color: #6c5f57;
+	text-align: left;
 }
