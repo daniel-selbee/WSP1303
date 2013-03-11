@@ -1,0 +1,45 @@
+/* --------------------------- General Body Formatting ------------------- */
+body {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #a2d5c6;
+}
+
+/* --------------------------- General Heading Formatting ------------------- */
+
+h1 {
+	color: #6c5f57;
+	font-size: 2.25em;
+	font-family: 'Fenix', serif;
+	clear: both;
+	margin: 0.313em;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: 'Fenix', serif;
+	color: #6c5f57;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-family: 'Fenix', serif;
+	color: #6c5f57;
+}
+
+/* --------------------------- General Paragraph Formatting ------------------- */
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-indent: 1.25em;
+}
+
+/* --------------------------- General List Formatting ------------------- */
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ol {
+	font-family: 'Open Sans', sans-serif;
+}
