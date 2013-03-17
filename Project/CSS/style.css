@@ -11,7 +11,7 @@ body {
 /* --------------------------- General Heading Formatting ------------------- */
 
 h1 {
-	color: #6c5f57;
+	color: #000426;
 	font-size: 2.25em;
 	font-family: 'Fenix', serif;
 	clear: both;
@@ -21,13 +21,13 @@ h1 {
 h2 {
 	font-size: 2em;
 	font-family: 'Fenix', serif;
-	color: #6c5f57;
+	color: #bd4932;
 }
 
 h3 {
 	font-size: 1.5em;
 	font-family: 'Fenix', serif;
-	color: #6c5f57;
+	color: #bd4932;
 }
 
 /* --------------------------- General Paragraph Formatting ------------------- */
