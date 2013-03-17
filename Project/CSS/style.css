@@ -32,6 +32,7 @@ h2 {
 	font-family: 'Fenix', serif;
 	color: #bd4932;
 	margin: 0.313em;
+	clear: both;
 }
 
 h3 {
@@ -39,6 +40,7 @@ h3 {
 	font-family: 'Fenix', serif;
 	color: #bd4932;
 	margin: 0.313em;
+	clear: both;
 }
 
 /* --------------------------- General Paragraph Formatting ------------------- */
