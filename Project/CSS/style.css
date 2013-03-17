@@ -44,10 +44,17 @@ p {
 ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
+	float: right;
+	width: 75%;
 }
 
 li {
-	display: block;	
+	display: block;
+	width: 15%;	
+	float: right;
+	text-align: center;
+	padding: 0.626em;
+	
 }
 
 ol {
@@ -65,4 +72,5 @@ img {
 
 footer p{
 	text-align: center;
+	clear: both;
 }
