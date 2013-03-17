@@ -5,7 +5,7 @@
 body {
 	width: 90%;
 	margin: 0 auto;
-	background-color: #a2d5c6;
+	background-color: #e0d0aa;
 }
 
 /* --------------------------- General Heading Formatting ------------------- */
@@ -22,12 +22,14 @@ h2 {
 	font-size: 2em;
 	font-family: 'Fenix', serif;
 	color: #bd4932;
+	margin: 0.313em;
 }
 
 h3 {
 	font-size: 1.5em;
 	font-family: 'Fenix', serif;
 	color: #bd4932;
+	margin: 0.313em;
 }
 
 /* --------------------------- General Paragraph Formatting ------------------- */
@@ -45,4 +47,10 @@ ul {
 
 ol {
 	font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------------------- General Image Formatting --------------------------*/
+
+img {
+	width: 80%;	
 }
