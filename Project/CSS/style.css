@@ -10,25 +10,90 @@ body {
 
 /*---------------------------- Logo Formatting ------------------------------*/
 
-#logo {
-	width: 25%;
+#logo{
+	width: 20%;
 	float: left;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
+}
+
+#logo img{
+	width: 100%;	
+}
+
+/*---------------------------- Social Media Formatting ----------------------*/
+
+#facebook{
+	float: right;
+	width: 10%;
+}
+
+#twitter{
+	float: right;
+	width: 10%;
+}
+
+#pintrest{
+	float: right;
+	width: 10%;
+}
+
+/* --------------------------- Global Nav Formatting ------------------- */
+
+ul {
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+	float: right;
+	width: 74.7%;
+	padding: 0;
+	display: block;
+}
+
+li {
+	display: block;
+	width: 8em;	
+	float: right;
+	text-align: center;
+	font-size: 0.9em;
+	margin: 0;
+	padding-top: 0.313em;
+	padding-bottom: 0.313em;
+	border: 0.09em solid black;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c7a276), to(#62503a));
+	
+}
+
+li a{
+	text-decoration: none;
+	color: #e0d0aa;
+	display: block;	
+}
+
+li a: visited{
+		
+}
+
+li a: hover{
+	color: white;	
+}
+
+ol {
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
 }
 
 /* --------------------------- General Heading Formatting ------------------- */
 
 h1 {
 	color: #000426;
-	font-size: 2.25em;
+	font-size: 2em;
 	font-family: 'Fenix', serif;
 	clear: both;
 	margin: 0.313em;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: 'Fenix', serif;
 	color: #bd4932;
 	margin: 0.313em;
@@ -36,7 +101,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Fenix', serif;
 	color: #bd4932;
 	margin: 0.313em;
@@ -48,31 +113,7 @@ h3 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	text-indent: 1.25em;
-}
-
-/* --------------------------- General List Formatting ------------------- */
-
-ul {
-	font-family: 'Open Sans', sans-serif;
-	list-style-type: none;
-	float: right;
-	width: 71%;
-}
-
-li {
-	display: block;
-	width: 20%;	
-	float: right;
-	text-align: center;
-	margin: 0;
-	padding-top: .313em;
-	padding-bottom: .313em;
-	
-}
-
-ol {
-	font-family: 'Open Sans', sans-serif;
-	list-style-type: none;
+	text-size: 0.7em;
 }
 
 /*----------------------------- General Image Formatting --------------------------*/
@@ -81,9 +122,57 @@ img {
 	width: 80%;	
 }
 
+/*----------------------------- General Text link Formatting ----------------------*/
+
+a {
+	text-decoration: none;
+	color: #bd4932;	
+}
+
+a: visited{
+	text-decoration: none;
+	color: #bd4932;	
+}
+
 /*----------------------------- General Footer Formatting ------------------------*/
+footer {
+	clear: both;	
+}
 
 footer p{
 	text-align: center;
 	clear: both;
+}
+
+/*---------------------------- Home Page Formatting -----------------------------*/
+
+/*---------------------------- About Us Page Formatting -------------------------*/
+.AU_Article {
+	background-image: url(../images/Text_Background.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 0.313em;
+	border: 0.063em solid black;
+}
+
+.AU_Header {
+	text-align: center;	
+}
+
+.AU_Paragraph{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	column-gap: 0.313em;
+	margin: 0.625em;
+	text-size: 0.7em;
+}
+
+.AU_Blockquote{
+	text-align: center;
+	margin: 0.313em;
+	text-size: 0.7em;
+	
 }
