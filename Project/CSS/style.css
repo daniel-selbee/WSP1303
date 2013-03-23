@@ -106,7 +106,7 @@ h2 {
 h3 {
 	font-size: 1em;
 	font-family: 'Fenix', serif;
-	color: #bd4932;
+	color: white;
 	margin: 0.313em;
 	clear: both;
 }
@@ -145,6 +145,44 @@ footer {
 footer p{
 	text-align: center;
 	clear: both;
+}
+
+/*---------------------------- General Form Formatting --------------------------*/
+
+form{
+	background: #947755;
+	clear: both;
+	padding: 0.626em;
+	border: 0.15em solid black;	
+	font-color: white;
+}
+
+h1.emergency{
+	color: 	#bd4932;
+	text-align: right;
+}
+
+.CU_Heading{
+	color: white;
+}
+
+input{
+	max-width: 	778.24px; /* 972.8 * .80*/
+	width: 80%;
+	color: white;
+}
+
+div.city{
+	width: 25%;
+}
+
+div.state{
+	width: 10%;
+}
+
+div.zip{
+	width: 25%;
+	
 }
 
 /*---------------------------- Home Page Formatting -----------------------------*/
