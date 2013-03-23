@@ -3,6 +3,7 @@
 
 /* --------------------------- General Body Formatting ------------------- */
 body {
+	max-width: 972.8px; /* 1024*.95 */
 	width: 95%;
 	margin: 0 auto;
 	background-color: #e0d0aa;
@@ -149,22 +150,26 @@ footer p{
 /*---------------------------- Home Page Formatting -----------------------------*/
 
 .HM_Slide_Wrap{
-	max-width: 844px;
+	max-width: 972.8px;
+	width: 100%;
 }
 
 .HM_Slide_CTA{
+	max-width: 870.656px; /* 972.8 * 89.8 */
 	width: 89.8%;	
 	float: left;
 	height: 42.6%;
 }
 
 .HM_Slide_Left{
-	width: 5.2%;
+	max-width: 50.5856px; /* 972.8 * .052 */
+	width: 5.2%; 
 	float: left;
 	height: 42.6%;	
 }
 
 .HM_Slide_Right{
+	max-width: 50.5856px;
 	width: 5.2%;
 	float: right;
 	height: 42.6%;
