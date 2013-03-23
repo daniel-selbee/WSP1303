@@ -13,12 +13,13 @@ body {
 #logo{
 	width: 25%;
 	float: left;
-	margin: 0;
+	margin-bottom: 0.75em;
 	padding: 0;
 }
 
 #logo img{
-	width: 100%;	
+	width: 100%;
+	height: 12.95%;	
 }
 
 /*---------------------------- Social Media Formatting ----------------------*/
@@ -67,6 +68,7 @@ li a{
 	text-decoration: none;
 	color: #e0d0aa;
 	display: block;	
+	margin-bottom: 0;
 }
 
 li a:visited{
@@ -145,6 +147,27 @@ footer p{
 }
 
 /*---------------------------- Home Page Formatting -----------------------------*/
+
+.HM_Slide_Wrap{
+	width: 100%;
+}
+
+.HM_Slide_CTA{
+	width: 89.8%;	
+	float: left;
+}
+
+.HM_Slide_Left{
+	width: 5.2%;
+	float: left;
+	height: 42.6%;	
+}
+
+.HM_Slide_Right{
+	width: 5.2%;
+	float: right;
+	height: 42.6%;
+}
 
 /*---------------------------- About Us Page Formatting -------------------------*/
 .AU_Article {
