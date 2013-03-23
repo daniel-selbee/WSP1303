@@ -200,7 +200,7 @@ div.zip{
 	
 }
 
-div.next{
+form input[type=submit]{
 	width: 10%;	
 	float: right;
 	margin-top: 1em;
