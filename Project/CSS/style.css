@@ -11,7 +11,7 @@ body {
 /*---------------------------- Logo Formatting ------------------------------*/
 
 #logo{
-	width: 20%;
+	width: 25%;
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -25,17 +25,17 @@ body {
 
 #facebook{
 	float: right;
-	width: 4.5%;
+	width: 3.85%;
 }
 
 #twitter{
 	float: right;
-	width: 8%;
+	width: 7%;
 }
 
 #pintrest{
 	float: right;
-	width: 8%;
+	width: 7%;
 }
 
 /* --------------------------- Global Nav Formatting ------------------- */
@@ -69,11 +69,11 @@ li a{
 	display: block;	
 }
 
-li a: visited{
+li a:visited{
 		
 }
 
-li a: hover{
+li a:hover{
 	color: white;	
 }
 
@@ -149,7 +149,7 @@ footer p{
 /*---------------------------- About Us Page Formatting -------------------------*/
 .AU_Article {
 	background-image: url(../images/Text_Background.png);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-position: left top;
 	clear: both;
 	margin-top: 0;
