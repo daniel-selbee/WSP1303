@@ -144,7 +144,7 @@ footer {
 	background-repeat: repeat-x;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	margin-top: 2em;
+	margin-top: 1em;
 	border: 0.1em solid black;
 }
 
@@ -184,7 +184,7 @@ span{
 input{
 	max-width: 	778.24px; /* 972.8 * .80*/
 	width: 80%;
-	color: white;
+	color: #000426;
 }
 
 div.city{
@@ -197,6 +197,14 @@ div.state{
 
 div.zip{
 	width: 25%;
+	
+}
+
+div.next{
+	width: 10%;	
+	float: right;
+	margin-top: 1em;
+	margin-bottom: 1em;
 	
 }
 
@@ -262,6 +270,3 @@ div.zip{
 
 /*----------------------------- Contact Us Page Formatting -----------------------*/
 
-.map{
-		
-}
