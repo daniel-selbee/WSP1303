@@ -140,11 +140,16 @@ a: visited{
 /*----------------------------- General Footer Formatting ------------------------*/
 footer {
 	clear: both;
+	background-image: url(../images/Text_Background.png);
+	background-repeat: repeat-x;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 2em;
+	border: 0.1em solid black;
 }
 
 footer p{
 	text-align: center;
-	clear: both;
 }
 
 /*---------------------------- General Form Formatting --------------------------*/
@@ -154,17 +159,23 @@ form{
 	clear: both;
 	padding: 0.626em;
 	border: 0.15em solid black;	
-	font-color: white;
+	width: 100%;
 }
 
 h1.emergency{
 	color: 	#bd4932;
 	text-align: right;
+	margin-bottom: 0.1em;
+	text-decoration: underline;
 }
 
 h3.contact{
 	color: #bd4932;
 	text-align: right;
+}
+
+span{
+	color: #000426;	
 }
 .CU_Heading{
 	color: white;
