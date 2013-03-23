@@ -160,6 +160,7 @@ form{
 	padding: 0.626em;
 	border: 0.15em solid black;	
 	width: 100%;
+	overflow: hidden;
 }
 
 h1.emergency{
