@@ -149,7 +149,7 @@ footer p{
 /*---------------------------- Home Page Formatting -----------------------------*/
 
 .HM_Slide_Wrap{
-	width: 100%;
+	max-width: 844px;
 }
 
 .HM_Slide_CTA{
@@ -199,4 +199,10 @@ footer p{
 	margin: 0.313em;
 	text-size: 0.7em;
 	
+}
+
+/*----------------------------- Contact Us Page Formatting -----------------------*/
+
+.map{
+		
 }
