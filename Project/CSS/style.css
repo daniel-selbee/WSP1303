@@ -308,9 +308,10 @@ p.services_2{
 
 /*------------------------------------Our Staff Page --------------------------------*/
 
-.staff_description{
+div.our_staff{
 	margin-top: 1em;
-	margin-bottom: 0;	
+	margin-bottom: 0;
+	clear: both;	
 }
 
 /*-----------------------------------Media Queries----------------------------------*/
