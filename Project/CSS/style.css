@@ -283,10 +283,15 @@ h1.new_client{
 /*----------------------------- Contact Us Page Formatting -----------------------*/
 
 
-/*----------------------------- Services Page ------------------------------------*/
+/*------------------------------------ Services Page ------------------------------------*/
 
 p.services{
 	clear: both;
+	color: #000426;	
+}
+
+div.list ol{
+	background-image: url(../images/Text_Background.png);
 }
 
 div.list li{
@@ -295,9 +300,11 @@ div.list li{
 	background: none;
 	float: none;
 	border: none;
-	text-align: left;	
+	text-align: left;
+	color: #000426;	
 }
 
 p.services_2{
-	clear: both;	
+	clear: both;
+	color: #000426;		
 }
