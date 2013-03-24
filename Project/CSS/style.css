@@ -321,8 +321,9 @@ div.our_staff{
 @media only screen and (max-device-width: 640px) { /*IPHONE 5*/
 /*LOGO*/
 #logo{
-	width: 100%;
-	background-image:url(../images/mobile_logo.png)
+	width: 640px%;
+	height: 30%;
+	background-image:url(../images/mobile_logo.png);
 	float: left;
 	margin-bottom: 0.80em;
 	padding: 0;
