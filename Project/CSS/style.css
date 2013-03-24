@@ -220,6 +220,7 @@ form input[type=submit]{
 	max-width: 972.8px;
 	width: 100%;
 	clear: both;
+	margin-bottom: 2em;
 }
 
 .HM_Slide_CTA{
@@ -309,7 +310,6 @@ p.services_2{
 /*------------------------------------Our Staff Page --------------------------------*/
 
 div.our_staff{
-	margin-top: 1em;
 	margin-bottom: 0;
 	clear: both;	
 }
