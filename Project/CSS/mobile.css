@@ -29,15 +29,14 @@ p{
 	padding: 0px;
 	left: 0px;
 	top: 0px;
-	overflow: hidden;
 }
 /*GLOBAL NAV*/
 ul{
-		
+	width: 100%;
 }
 
 li{
-	
+	width: 40%;
 }
 
 li a{

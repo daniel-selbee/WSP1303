@@ -3,10 +3,10 @@
 
 /* ------------------------------iPhone 5 ---------------------------------- */
 
-@import "mobile.css" only screen and (max-width:640px);
+@import url("mobile.css") only screen and (max-width:640px);
 
-/*--------------------------------- iPad ------------------------------------*/
-@import "tablet.css" only screen and (min-width:641px) and (max-width:1536px);
+/* --------------------------------- iPad ------------------------------------ */
+@import url("tablet.css") only screen and (min-width:641px) and (max-width:1536px);
 
 
 /* --------------------------- General Body Formatting ------------------- */
@@ -115,7 +115,7 @@ h3 {
 	font-size: 1em;
 	font-family: 'Fenix', serif;
 	color: white;
-	margin: 0.313em;
+	margin-bottom: 0em;
 	clear: both;
 }
 
@@ -124,7 +124,7 @@ h3 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	text-indent: 1.25em;
-	font-size: 0.7em;
+	font-size: 0.9em;
 }
 
 /*----------------------------- General Text link Formatting ----------------------*/
@@ -177,9 +177,6 @@ h3.contact{
 	text-align: right;
 }
 
-span{
-	color: #000426;	
-}
 .CU_Heading{
 	color: white;
 }
@@ -201,6 +198,13 @@ div.state{
 div.zip{
 	width: 25%;
 	
+}
+
+form label[type=text]{
+	font-size: 1em;
+	font-family: 'Fenix', serif;
+	color: white;
+	margin: 0.313em;	
 }
 
 form input[type=submit]{
@@ -258,7 +262,8 @@ form input[type=submit]{
 }
 
 .AU_Header {
-	text-align: center;	
+	text-align: center;
+	font-size: 2em;	
 }
 
 .AU_Paragraph{
@@ -267,13 +272,13 @@ form input[type=submit]{
 	column-count:2;
 	column-gap: 0.313em;
 	margin: 0.625em;
-	font-size: 0.7em;
+	font-size: 1em;
 }
 
 .AU_Blockquote{
 	text-align: center;
 	margin: 0.313em;
-	font-size: 0.7em;
+	font-size: 1em;
 	
 }
 
