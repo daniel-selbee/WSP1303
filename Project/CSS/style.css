@@ -289,6 +289,15 @@ p.services{
 	clear: both;
 }
 
+div.list li{
+	width: 100%;
+	clear: both;
+	background: none;
+	float: none;
+	border: none;
+	text-align: left;	
+}
+
 p.services_2{
 	clear: both;	
 }
