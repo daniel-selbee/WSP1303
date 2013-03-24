@@ -1,5 +1,10 @@
 /*----------------------------- Global Reset --------------------------------*/
 @import "normalize.css";
+/* iPhone 5 */
+@import "mobile.css" only screen and (max-width:640px);
+/* iPad */
+@import "tablet.css" only screen and (min-width:641px) and (max-width:1536px);
+
 
 /* --------------------------- General Body Formatting ------------------- */
 body {
@@ -16,10 +21,6 @@ body {
 	float: left;
 	margin-bottom: 0.80em;
 	padding: 0;
-}
-
-#mobile_logo{
-	display: none;	
 }
 
 #logo img{
@@ -77,7 +78,7 @@ li a{
 }
 
 li a:visited{
-		
+	color: #e0d0aa;	
 }
 
 li a:hover{
@@ -121,12 +122,6 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	text-indent: 1.25em;
 	font-size: 0.7em;
-}
-
-/*----------------------------- General Image Formatting --------------------------*/
-
-img {
-	width: 80%;	
 }
 
 /*----------------------------- General Text link Formatting ----------------------*/
@@ -317,7 +312,3 @@ div.our_staff{
 	margin-bottom: 0;
 	clear: both;	
 }
-
-/*-----------------------------------Media Queries----------------------------------*/
-
-@import "mobile.css";

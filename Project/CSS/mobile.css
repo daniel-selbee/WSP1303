@@ -1,23 +1,82 @@
-/*--------------------- MOBILE MEDIA QUERY -----------------------------*/
+@charset "utf-8";
 
-@media only screen (min-width: 440px) (max-width:680px){
 /*BODY*/
 body{
-	width: 100%;	
+ width: 100%;
 }
-
+/*HEADINGS*/
+ h1{
+	 
+ }
+ h2{
+	 
+ }
+ 
+ h3{
+	 
+ }
+/*PARAGRAPHS*/
+p{
+	width: 90%;
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+}
 /*LOGO*/
 #logo{
-	display: none;	
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+}
+/*GLOBAL NAV*/
+ul{
+		
 }
 
-/*GLOBAL NAV*/
+li{
+	
+}
 
-/*HEADINGS*/
+li a{
+	
+}
 
-/*PARAGRAPHS*/
+li a:visited{
+	text-decoration: none;
+	
+}
+/*SOCIAL NETWORKS*/
+#pintrest{
+	
+}
 
-/*SLIDESHOWS*/
+#twitter{
+	
+}
+
+#facebook{
+	
+}
+/*SLIDESHOW*/
+.HM_Slide_Wrap{
+	
+}
+
+.HM_Slide_CTA{
+	
+}
+
+.HM_Slide_Left{
+	
+}
+
+.HM_Slide_Right{
+	
+}
+/*FOOTER*/
 
 /*HOME*/
 
@@ -30,5 +89,3 @@ body{
 /*YOUR FIRST VISIT*/
 
 /*CONTACT US*/
-
-}
