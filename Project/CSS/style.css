@@ -280,9 +280,6 @@ h1.new_client{
 	text-align: center;	
 }
 
-/*----------------------------- Contact Us Page Formatting -----------------------*/
-
-
 /*------------------------------------ Services Page ------------------------------------*/
 
 p.services{
@@ -307,4 +304,20 @@ p.services_2{
 	clear: both;
 	color: #000426;	
 	margin-top: 0;	
+}
+
+/*------------------------------------Our Staff Page --------------------------------*/
+
+.staff_description{
+	margin-top: 1em;
+	margin-bottom: 0;	
+}
+
+/*-----------------------------------Media Queries----------------------------------*/
+
+/*MOBILE*/
+
+@media only screen and (max-device-width: 640px) { /*IPHONE 5*/
+
+	
 }
