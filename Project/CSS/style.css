@@ -282,3 +282,13 @@ h1.new_client{
 
 /*----------------------------- Contact Us Page Formatting -----------------------*/
 
+
+/*----------------------------- Services Page ------------------------------------*/
+
+p.services{
+	clear: both;
+}
+
+p.services_2{
+	clear: both;	
+}
