@@ -18,6 +18,10 @@ body {
 	padding: 0;
 }
 
+#mobile_logo{
+	display: none;	
+}
+
 #logo img{
 	width: 100%;
 	height: 12.95%;	
@@ -318,27 +322,36 @@ div.our_staff{
 
 /*MOBILE*/
 
-@media only screen and (max-device-width: 640px) { /*IPHONE 5*/
-/*LOGO*/
-#logo{
-	width: 640px%;
-	height: 30%;
-	background-image:url(../images/mobile_logo.png);
-	float: left;
-	margin-bottom: 0.80em;
-	padding: 0;
+@media only screen and (min-width:440px) and (max-width:640px) { /*IPHONE 5*/
+
+/*BODY*/
+body{
+	width: 100%;	
 }
 
-#logo img{
+/*LOGO*/
+#logo{
 	display: none;
 }
 
+#mobile_logo{
+	width: 100%;	
+}
 
+#logo img{
+	width: 100%;
+}
 
 /*GLOBAL NAV*/
 ul {
 	display: none;
 }
+
+/*PARAGRAPHS*/
+p {
+	font-size: 14px;
+}
+
 /*SLIDESHOW*/
 .HM_Slide_CTA{
 	width: 100%;
@@ -360,8 +373,10 @@ ul {
 
 /*OUR STAFF*/
 div.our_staff{
-	width: 100%;
-	clear: both;	
+	width: 90%;
+	clear: both;
+	text-align: center;
+	margin: 0 auto;	
 }
 
 /*FOOTER*/
