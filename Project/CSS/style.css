@@ -288,23 +288,21 @@ h1.new_client{
 p.services{
 	clear: both;
 	color: #000426;	
-}
-
-div.list ol{
-	background-image: url(../images/Text_Background.png);
+	margin-bottom: 0;
 }
 
 div.list li{
 	width: 100%;
 	clear: both;
-	background: none;
 	float: none;
 	border: none;
 	text-align: left;
 	color: #000426;	
+	margin-bottom: 0;
 }
 
 p.services_2{
 	clear: both;
-	color: #000426;		
+	color: #000426;	
+	margin-top: 0;	
 }
