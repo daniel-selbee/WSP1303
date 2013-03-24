@@ -319,6 +319,59 @@ div.our_staff{
 /*MOBILE*/
 
 @media only screen and (max-device-width: 640px) { /*IPHONE 5*/
+/*LOGO*/
+#logo{
+	width: 100%;
+	background-image:url(../images/mobile_logo.png)
+	float: left;
+	margin-bottom: 0.80em;
+	padding: 0;
+}
+
+#logo img{
+	display: none;
+}
+
+
+
+/*GLOBAL NAV*/
+ul {
+	display: none;
+}
+/*SLIDESHOW*/
+.HM_Slide_CTA{
+	width: 100%;
+	max-width: 640px;
+	clear: both;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	border: 2px solid black;
+}
+.HM_Slide_Right{
+	display: none;
+}
+
+.HM_Slide_Left{
+	display: none;	
+}
+
+/*OUR STAFF*/
+div.our_staff{
+	width: 100%;
+	clear: both;	
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;	
+}
+
+footer p{
+	font-size: 12px;	
+}
+
 
 	
 }
