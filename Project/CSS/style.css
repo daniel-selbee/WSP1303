@@ -274,5 +274,11 @@ form input[type=submit]{
 	
 }
 
+/*----------------------------- Your First Visit ---------------------------------*/
+
+h1.new_client{
+	text-align: center;	
+}
+
 /*----------------------------- Contact Us Page Formatting -----------------------*/
 
