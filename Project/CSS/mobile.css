@@ -1,4 +1,34 @@
 /*--------------------- MOBILE MEDIA QUERY -----------------------------*/
 
+@media only screen (min-width: 440px) (max-width:680px){
 /*BODY*/
+body{
+	width: 100%;	
+}
 
+/*LOGO*/
+#logo{
+	display: none;	
+}
+
+/*GLOBAL NAV*/
+
+/*HEADINGS*/
+
+/*PARAGRAPHS*/
+
+/*SLIDESHOWS*/
+
+/*HOME*/
+
+/*ABOUT US*/
+
+/*OUR STAFF*/
+
+/*SERVICES*/
+
+/*YOUR FIRST VISIT*/
+
+/*CONTACT US*/
+
+}
