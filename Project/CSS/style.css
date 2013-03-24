@@ -120,7 +120,7 @@ h3 {
 p {
 	font-family: 'Open Sans', sans-serif;
 	text-indent: 1.25em;
-	text-size: 0.7em;
+	font-size: 0.7em;
 }
 
 /*----------------------------- General Image Formatting --------------------------*/
@@ -136,7 +136,7 @@ a {
 	color: #bd4932;	
 }
 
-a: visited{
+a:visited{
 	text-decoration: none;
 	color: #bd4932;	
 }
@@ -269,13 +269,13 @@ form input[type=submit]{
 	column-count:2;
 	column-gap: 0.313em;
 	margin: 0.625em;
-	text-size: 0.7em;
+	font-size: 0.7em;
 }
 
 .AU_Blockquote{
 	text-align: center;
 	margin: 0.313em;
-	text-size: 0.7em;
+	font-size: 0.7em;
 	
 }
 
@@ -320,74 +320,4 @@ div.our_staff{
 
 /*-----------------------------------Media Queries----------------------------------*/
 
-/*MOBILE*/
-
-@media only screen and (min-width:440px) and (max-width:640px) { /*IPHONE 5*/
-
-/*BODY*/
-body{
-	width: 100%;	
-}
-
-/*LOGO*/
-#logo{
-	display: none;
-}
-
-#mobile_logo{
-	width: 100%;	
-}
-
-#logo img{
-	width: 100%;
-}
-
-/*GLOBAL NAV*/
-ul {
-	display: none;
-}
-
-/*PARAGRAPHS*/
-p {
-	font-size: 14px;
-}
-
-/*SLIDESHOW*/
-.HM_Slide_CTA{
-	width: 100%;
-	max-width: 640px;
-	clear: both;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 1em;
-	margin-left: auto;
-	border: 2px solid black;
-}
-.HM_Slide_Right{
-	display: none;
-}
-
-.HM_Slide_Left{
-	display: none;	
-}
-
-/*OUR STAFF*/
-div.our_staff{
-	width: 90%;
-	clear: both;
-	text-align: center;
-	margin: 0 auto;	
-}
-
-/*FOOTER*/
-footer{
-	width: 100%;	
-}
-
-footer p{
-	font-size: 12px;	
-}
-
-
-	
-}
+@import "mobile.css";
