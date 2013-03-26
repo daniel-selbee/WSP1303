@@ -72,11 +72,11 @@ li a:visited{
 }
 
 .HM_Slide_Left{
-	
+	display: none;
 }
 
 .HM_Slide_Right{
-	
+	display: none;
 }
 /*FOOTER*/
 
