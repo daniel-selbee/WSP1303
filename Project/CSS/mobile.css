@@ -49,15 +49,18 @@ li a:visited{
 }
 /*SOCIAL NETWORKS*/
 #pintrest{
-	
+	width: 30%;
+	padding 1em;
 }
 
 #twitter{
-	
+	width: 30%;
+	padding 1em;
 }
 
 #facebook{
-	
+	width: 30%;
+	padding 1em;
 }
 /*SLIDESHOW*/
 .HM_Slide_Wrap{
