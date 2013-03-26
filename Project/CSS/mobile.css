@@ -88,6 +88,8 @@ li a:visited{
 
 .HM_Slide_CTA{
 	margin: 0 auto;
+	clear: both;
+	float: none;
 }
 
 .HM_Slide_Left{
