@@ -33,14 +33,17 @@ p{
 /*GLOBAL NAV*/
 ul{
 	width: 100%;
+	clear: both;
 }
 
 li{
 	width: 40%;
+	float: right;
 }
 
 li a{
-	
+	display: block;
+	float: right;
 }
 
 li a:visited{
