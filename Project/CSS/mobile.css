@@ -34,22 +34,35 @@ p{
 ul{
 	width: 100%;
 	clear: both;
+	margin: 0 auto;
 }
 
 li{
 	width: 40%;
+	text-align: center;;
 	float: right;
-	text-align: center;
 }
 
 li a{
 	display: block;
 	float: right;
+	margin: 0 auto;
 }
 
 li a:visited{
 	text-decoration: none;
 	
+}
+#home{
+	display: none;	
+}
+
+#visit{
+
+}
+
+#about{
+	display: none;	
 }
 
 /*SOCIAL NETWORKS*/
