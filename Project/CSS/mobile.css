@@ -50,6 +50,7 @@ li a:visited{
 	text-decoration: none;
 	
 }
+
 /*SOCIAL NETWORKS*/
 #pintrest{
 	width: 30%;
@@ -71,7 +72,7 @@ li a:visited{
 }
 
 .HM_Slide_CTA{
-	
+	margin: 0 auto;
 }
 
 .HM_Slide_Left{
