@@ -253,20 +253,6 @@ form input[type=submit]{
 	height: 42.6%;
 }
 
-.HM_Slide_Left{
-	max-width: 50.5856px; /* 972.8 * .052 */
-	width: 5.2%; 
-	float: left;
-	height: 42.6%;	
-}
-
-.HM_Slide_Right{
-	max-width: 50.5856px;
-	width: 5.2%;
-	float: left;
-	height: 42.6%;
-}
-
 /*---------------------------- About Us Page Formatting -------------------------*/
 .AU_Article {
 	background-image: url(../images/Text_Background.png);
