@@ -18,18 +18,19 @@ body{
 /*PARAGRAPHS*/
 p{
 	width: 90%;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 	margin: 0 auto;
 }
 /*LOGO*/
 #logo{
 	width: 100%;
-	margin: 0px;
+	margin: 0 auto;
 	padding: 0px;
 	left: 0px;
 	top: 0px;
 	float: none;
+	clear: both;
 }
 /*GLOBAL NAV*/
 ul{
@@ -40,14 +41,15 @@ ul{
 
 li{
 	width: 40%;
-	text-align: center;;
-	float: right;
+	text-align: center;
+	float: none;
 }
 
 li a{
 	display: block;
 	float: right;
 	margin: 0 auto;
+	text-align: center;
 }
 
 li a:visited{
@@ -68,18 +70,21 @@ li a:visited{
 
 /*SOCIAL NETWORKS*/
 #pintrest{
-	width: 30%;
-	padding 1em;
+	width: 20%;
+	padding-right: 1em;
+	float: left;
 }
 
 #twitter{
-	width: 30%;
-	padding 1em;
+	width: 20%;
+	padding-right: 1em;
+	float: left;
 }
 
 #facebook{
-	width: 30%;
-	padding 1em;
+	width: 20%;
+	padding-right: 1em;
+	float: left;
 }
 /*SLIDESHOW*/
 .HM_Slide_Wrap{
@@ -90,6 +95,7 @@ li a:visited{
 	margin: 0 auto;
 	clear: both;
 	float: none;
+	width: 100%;
 }
 
 .HM_Slide_Left{
@@ -100,7 +106,9 @@ li a:visited{
 	display: none;
 }
 /*FOOTER*/
-
+footer{
+	clear: both;	
+}
 /*HOME*/
 
 /*ABOUT US*/

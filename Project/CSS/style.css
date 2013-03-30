@@ -69,7 +69,24 @@ li {
 	padding-top: 0.313em;
 	padding-bottom: 0.313em;
 	border: 0.09em solid black;
-	background: -webkit-gradient(linear, left top, left bottom, from(#c7a276), to(#62503a));
+/*------------------------GRADIENTS-------------------*/
+background: #c7a276; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #c7a276 0%, #62503a 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7a276), color-stop(100%,#62503a)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #c7a276 0%,#62503a 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */
+
+
 	
 }
 

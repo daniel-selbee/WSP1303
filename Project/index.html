@@ -4,6 +4,9 @@
 		</title>
 		<meta charset="utf-8"/>
 		<link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/orbit.css">
+        <script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.orbit.min.js" type="text/javascript"></script>
 		<!-- GOOGLE WEB FONTS START -->
 		<link href='http://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Fenix|Open+Sans' rel='stylesheet' type='text/css'>
@@ -25,7 +28,8 @@
             <nav>        
 				<ul>
                   <div id="contact"><li><a href="contact_us.html">Contact Us</a></li></div>
-					<div id="visit"><li><a href="your_first_visit.html">Your First Visit</a></li></div>
+					<div id="visit">
+					  <li><a href="your_first_visit.html">Check-In</a></li></div>
 					<div id="services"><li><a href="services.html">Services</a></li></div>
                     <div id="staff"><li><a href="about-us-our-staff.html">Our Staff</a></li></div>
 					<div id="about"><li><a href="about_us.html">About Us</a></li></div>
@@ -36,12 +40,19 @@
                 <!--END HEADER-->
 			</header>
 			<!--START SLIDESHOW-->
-            <div class="HM_Slide_Wrap">
-            <img class="HM_Slide_Left" src="images/Left_Nav.png" alt="Left Navigation">
-       	    <a href="contact_us.html"><img class="HM_Slide_CTA" src="images/Emergency_CTA.png" alt="Emergency"></a> 
-            <img class="HM_Slide_Right" src="images/Right_Nav.png" alt="Left Navigation">
-            </div>
-			<!--END SLIDESHOW-->
+ 			<div id="featured"> 
+     			<img src="images/Emergency-CTA_Desktop.png"  alt="CTA" />
+                <img src="images/renetatephotography_pics.jpg" alt="family 1" />
+                <img src="images/WurstFamily.jpg" alt="family 2" />
+			</div>
+        <script type="text/javascript">
+     $(window).load(function() {
+         $('#featured').orbit({
+              bullets: true
+         });
+     });
+</script>
+		<!--END SLIDESHOW-->
 
 			<footer>
 				<p>
