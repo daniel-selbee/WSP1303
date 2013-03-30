@@ -86,25 +86,7 @@ li a:visited{
 	padding-right: 1em;
 	float: left;
 }
-/*SLIDESHOW*/
-.HM_Slide_Wrap{
-	
-}
 
-.HM_Slide_CTA{
-	margin: 0 auto;
-	clear: both;
-	float: none;
-	width: 100%;
-}
-
-.HM_Slide_Left{
-	display: none;
-}
-
-.HM_Slide_Right{
-	display: none;
-}
 /*FOOTER*/
 footer{
 	clear: both;	
