@@ -258,6 +258,7 @@ form input[type=submit]{
 }
 
 div.AU_Paragraph{
+	width: 95%;
 	-moz-column-count:2; /* Firefox */
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;
