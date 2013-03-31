@@ -1,104 +1,302 @@
 @charset "utf-8";
 
-/*BODY*/
-body{
- width: 100%;
-}
-/*HEADINGS*/
- h1{
-	 
- }
- h2{
-	 
- }
- 
- h3{
-	 
- }
-/*PARAGRAPHS*/
-p{
-	width: 90%;
-	font-size: 12px;
-	text-align: center;
+/* --------------------------- General Body Formatting ------------------- */
+body {
+	max-width: 972.8px; /* 1024*.95 */
+	width: 95%;
 	margin: 0 auto;
+	background-color: #e0d0aa;
 }
-/*LOGO*/
+
+/*---------------------------- Logo Formatting ------------------------------*/
+
 #logo{
-	width: 100%;
-	margin: 0 auto;
-	padding: 0px;
-	left: 0px;
-	top: 0px;
-	float: none;
-	clear: both;
-}
-/*GLOBAL NAV*/
-ul{
-	width: 100%;
-	clear: both;
-	margin: 0 auto;
-}
-
-li{
-	width: 40%;
-	text-align: center;
-	float: none;
-}
-
-li a{
-	display: block;
-	float: right;
-	margin: 0 auto;
-	text-align: center;
-}
-
-li a:visited{
-	text-decoration: none;
-	
-}
-#home{
-	display: none;	
-}
-
-#visit{
-
-}
-
-#about{
-	display: none;	
-}
-
-/*SOCIAL NETWORKS*/
-#pintrest{
-	width: 20%;
-	padding-right: 1em;
+	width: 25%;
 	float: left;
+	margin-bottom: 0.80em;
+	padding: 0;
+}
+
+#logo img{
+	width: 100%;
+	height: 12.95%;	
+}
+
+/*---------------------------- Social Media Formatting ----------------------*/
+
+#facebook{
+	float: right;
+	width: 3.85%;
+}
+
+#facebook img{
+	width: 100%;	
 }
 
 #twitter{
-	width: 20%;
-	padding-right: 1em;
-	float: left;
+	float: right;
+	width: 7%;
 }
 
-#facebook{
-	width: 20%;
-	padding-right: 1em;
-	float: left;
+#twitter img{
+	width: 100%;	
 }
 
-/*FOOTER*/
-footer{
-	clear: both;	
+#pintrest{
+	float: right;
+	width: 7%;
 }
-/*HOME*/
 
-/*ABOUT US*/
+#pintrest img{
+	width: 100%;	
+}
 
-/*OUR STAFF*/
+/* --------------------------- Global Nav Formatting ------------------- */
 
-/*SERVICES*/
+ul {
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+	float: right;
+	width: 74.7%;
+	padding: 0;
+	display: block;
+}
 
-/*YOUR FIRST VISIT*/
+li {
+	display: block;
+	width: 8em;	
+	float: right;
+	text-align: center;
+	font-size: 0.9em;
+	margin: 0;
+	padding-top: 0.313em;
+	padding-bottom: 0.313em;
+	border: 0.09em solid black;
+	background: #c7a276; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c7a276 0%, #62503a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7a276), color-stop(100%,#62503a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c7a276 0%,#62503a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */	
+}
 
-/*CONTACT US*/
+li a{
+	text-decoration: none;
+	color: #e0d0aa;
+	display: block;	
+	margin-bottom: 0;
+}
+
+li a:visited{
+	color: #e0d0aa;	
+}
+
+li a:hover{
+	color: white;	
+}
+
+ol {
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+}
+
+/* --------------------------- General Heading Formatting ------------------- */
+
+h1 {
+	color: #000426;
+	font-size: 2em;
+	font-family: 'Fenix', serif;
+	clear: both;
+	margin: 0.313em;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: 'Fenix', serif;
+	color: #bd4932;
+	margin: 0.313em;
+	clear: both;
+}
+
+h3 {
+	font-size: 1em;
+	font-family: 'Fenix', serif;
+	color: white;
+	margin-bottom: 0em;
+	clear: both;
+}
+
+/* --------------------------- General Paragraph Formatting ------------------- */
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-indent: 1.25em;
+	font-size: 0.9em;
+}
+
+/*----------------------------- General Text link Formatting ----------------------*/
+
+a {
+	text-decoration: none;
+	color: #bd4932;	
+}
+
+a:visited{
+	text-decoration: none;
+	color: #bd4932;	
+}
+
+/*----------------------------- General Footer Formatting ------------------------*/
+footer {
+	clear: both;
+	background-image: url(../images/Text_Background.png);
+	background-repeat: repeat-x;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-top: 1em;
+	border: 0.1em solid black;
+}
+
+footer p{
+	text-align: center;
+}
+
+/*---------------------------- Form Formatting --------------------------*/
+
+form{
+	background: #947755;
+	clear: both;
+	padding: 0.626em;
+	border: 0.15em solid black;	
+	width: 100%;
+	overflow: hidden;
+}
+
+h1.emergency{
+	color: 	#bd4932;
+	text-align: right;
+	margin-bottom: 0.1em;
+	text-decoration: underline;
+}
+
+h3.contact{
+	color: #bd4932;
+	text-align: right;
+}
+
+.CU_Heading{
+	color: white;
+}
+
+input{
+	max-width: 	778.24px; /* 972.8 * .80*/
+	width: 80%;
+	color: #000426;
+}
+
+div.city{
+	width: 25%;
+}
+
+div.state{
+	width: 10%;
+}
+
+div.zip{
+	width: 25%;
+	
+}
+
+form label[type=text]{
+	font-size: 1em;
+	font-family: 'Fenix', serif;
+	color: white;
+	margin: 0.313em;	
+}
+
+form input[type=submit]{
+	width: 10%;	
+	float: right;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	background: #e0d0aa;
+	color: white;
+	border-radius: 0.625em;
+	border: 0.1em solid black;
+	background: #c7a276; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c7a276 0%, #62503a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c7a276), color-stop(100%,#62503a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #c7a276 0%,#62503a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */
+}
+
+/*---------------------------- Home Page Formatting -----------------------------*/
+
+/*---------------------------- About Us Page Formatting -------------------------*/
+.AU_Article {
+	background-image: url(../images/Text_Background.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+	clear: both;
+	margin-top: 0;
+	margin-bottom: 0.313em;
+	border: 0.063em solid black;
+}
+
+.AU_Header {
+	text-align: center;
+	font-size: 2em;	
+}
+
+.AU_Paragraph{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	column-gap: 0.313em;
+	margin: 0.625em;
+	font-size: 1em;
+}
+
+.AU_Blockquote{
+	text-align: center;
+	margin: 0.313em;
+	font-size: 1em;
+	
+}
+
+/*----------------------------- Your First Visit ---------------------------------*/
+
+h1.new_client{
+	text-align: center;	
+}
+
+/*------------------------------------ Services Page ------------------------------------*/
+
+p.services{
+	clear: both;
+	color: #000426;	
+	margin-bottom: 0;
+}
+
+div.list li{
+	width: 100%;
+	clear: both;
+	float: none;
+	border: none;
+	text-align: left;
+	color: #000426;	
+	margin-bottom: 0;
+	background: none;
+	font-style: italic;
+}
+
+p.services_2{
+	clear: both;
+	color: #000426;	
+	margin-top: 0;	
+}

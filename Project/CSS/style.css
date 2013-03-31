@@ -31,14 +31,6 @@ body {
 	height: 12.95%;	
 }
 
-/*REMOVE MOBILE DISPLAY*/
-#mobile_logo, #mobile_logo img{
-	display: none;
-	float: left;
-	visibility: hidden;
-	left: -999999px;
-}
-
 /*---------------------------- Social Media Formatting ----------------------*/
 
 #facebook{
@@ -46,14 +38,26 @@ body {
 	width: 3.85%;
 }
 
+#facebook img{
+	width: 100%;	
+}
+
 #twitter{
 	float: right;
 	width: 7%;
 }
 
+#twitter img{
+	width: 100%;	
+}
+
 #pintrest{
 	float: right;
 	width: 7%;
+}
+
+#pintrest img{
+	width: 100%;	
 }
 
 /* --------------------------- Global Nav Formatting ------------------- */
