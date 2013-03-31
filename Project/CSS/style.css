@@ -84,6 +84,7 @@ nav ul li a{
 	color: #e0d0aa;
 	display: block;	
 	margin-bottom: 0;
+	float: right;
 }
 
 nav ul li a:visited{
