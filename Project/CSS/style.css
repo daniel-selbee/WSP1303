@@ -62,7 +62,7 @@ body {
 
 /* --------------------------- Global Nav Formatting ------------------- */
 
-ul {
+nav ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
 	float: right;
@@ -71,7 +71,7 @@ ul {
 	display: block;
 }
 
-li {
+nav ul li {
 	display: block;
 	width: 8em;	
 	float: right;
@@ -91,18 +91,18 @@ li {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */	
 }
 
-li a{
+nav ul li a{
 	text-decoration: none;
 	color: #e0d0aa;
 	display: block;	
 	margin-bottom: 0;
 }
 
-li a:visited{
+nav ul li a:visited{
 	color: #e0d0aa;	
 }
 
-li a:hover{
+nav ul li a:hover{
 	color: white;	
 }
 
