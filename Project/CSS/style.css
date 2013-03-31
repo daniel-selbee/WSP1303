@@ -6,7 +6,7 @@
 @import url("mobile.css") only screen and (max-width:640px);
 
 /* --------------------------------- iPad ------------------------------------ */
-@import url("tablet.css") only screen and (min-width:641px) and (max-width:1536px);
+@import url("tablet.css") only screen and (min-width:641px) and (max-width:1024px);
 
 
 /* --------------------------- General Body Formatting ------------------- */
@@ -29,6 +29,11 @@ body {
 #logo img{
 	width: 100%;
 	height: 12.95%;	
+}
+
+/*REMOVE MOBILE DISPLAY*/
+#mobile_logo, #mobile_logo img{
+	display: none;	
 }
 
 /*---------------------------- Social Media Formatting ----------------------*/
