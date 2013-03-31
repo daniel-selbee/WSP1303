@@ -33,7 +33,8 @@ body {
 
 /*REMOVE MOBILE DISPLAY*/
 #mobile_logo, #mobile_logo img{
-	display: none;	
+	display: none;
+	float: left;	
 }
 
 /*---------------------------- Social Media Formatting ----------------------*/
