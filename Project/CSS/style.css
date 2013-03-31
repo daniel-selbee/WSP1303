@@ -38,29 +38,14 @@ body {
 	width: 3.85%;
 }
 
-#facebook img{
-	width: 100%;
-	float: right;	
-}
-
 #twitter{
 	float: right;
 	width: 7%;
 }
 
-#twitter img{
-	width: 100%;
-	float: right;	
-}
-
 #pintrest{
 	float: right;
 	width: 7%;
-}
-
-#pintrest img{
-	width: 100%;
-	float: right;	
 }
 
 /* --------------------------- Global Nav Formatting ------------------- */
