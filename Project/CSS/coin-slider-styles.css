@@ -9,7 +9,8 @@
 	zoom: 1;
 	position: relative;
 	clear: both;
-	width: 1024px;
+	max-width:1024px;
+	width: 100%;
 }
 .coin-slider a{ 
 text-decoration: none; 
