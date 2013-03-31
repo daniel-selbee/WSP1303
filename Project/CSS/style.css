@@ -257,11 +257,13 @@ form input[type=submit]{
 	font-size: 2em;	
 }
 
-.AU_Paragraph{
+div.AU_Paragraph{
 	-moz-column-count:2; /* Firefox */
 	-webkit-column-count:2; /* Safari and Chrome */
 	column-count:2;
 	column-gap: 0.313em;
+	-moz-column-gap:0.313em; /* Firefox */
+	-webkit-column-gap:0.313em; /* Safari and Chrome */
 	margin: 0.625em;
 	font-size: 1em;
 }
