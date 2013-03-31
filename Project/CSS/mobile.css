@@ -250,11 +250,12 @@ form input[type=submit]{
 }
 
 .AU_Paragraph{
-	-moz-column-count:2; /* Firefox */
-	-webkit-column-count:2; /* Safari and Chrome */
-	column-count:2;
-	column-gap: 0.313em;
-	margin: 0.625em;
+	-moz-column-count:0; /* Firefox */
+	-webkit-column-count:0; /* Safari and Chrome */
+	column-count:0;
+	column-gap: 0;
+	margin: 0;
+	padding: 5px;
 	font-size: 1em;
 }
 
