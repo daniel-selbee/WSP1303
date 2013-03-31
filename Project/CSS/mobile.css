@@ -11,16 +11,11 @@ body {
 /*---------------------------- Logo Formatting ------------------------------*/
 
 #logo{
-	float: none;
-	padding: 0;
-	display: block;
-	margin: 0 auto;
+	width: 100%;
 }
 
 #logo img{
 	width: 100%;
-	height: auto;
-	float: none;
 }
 
 /*---------------------------- Social Media Formatting ----------------------*/
@@ -32,15 +27,14 @@ body {
 
 
 #twitter{
-	float: none;
 	display: none;
-	
+	float: none;
 }
 
 
 #pintrest{
-	float: none;
 	display: none;
+	float: none;
 }
 
 
@@ -156,7 +150,7 @@ footer {
 
 footer p{
 	text-align: center;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 /*---------------------------- Form Formatting --------------------------*/
