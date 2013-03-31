@@ -25,31 +25,21 @@ body {
 /*---------------------------- Social Media Formatting ----------------------*/
 
 #facebook{
-	float: right;
-	width: 3.85%;
+	display: none;
 }
 
-#facebook img{
-	width: 100%;	
-}
 
 #twitter{
 	float: right;
 	width: 7%;
 }
 
-#twitter img{
-	width: 100%;	
-}
 
 #pintrest{
 	float: right;
 	width: 7%;
 }
 
-#pintrest img{
-	width: 100%;	
-}
 
 /* --------------------------- Global Nav Formatting ------------------- */
 
