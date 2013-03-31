@@ -44,12 +44,14 @@ body {
 
 
 /* --------------------------- Global Nav Formatting ------------------- */
-
+nav {
+	clear: both;
+	width: 100%;	
+}
 ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
-	float: right;
-	width: 74.7%;
+	width: 100%;
 	padding: 0;
 	display: block;
 }
@@ -57,9 +59,8 @@ ul {
 li {
 	display: block;
 	width: 100%;	
-	float: none;
 	text-align: center;
-	font-size: 0.9em;
+	font-size: 14px;
 	margin: 0;
 	padding-top: 0.313em;
 	padding-bottom: 0.313em;
@@ -143,16 +144,18 @@ a:visited{
 /*----------------------------- General Footer Formatting ------------------------*/
 footer {
 	clear: both;
+	width: 100%;
 	background-image: url(../images/Text_Background.png);
 	background-repeat: repeat-x;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	margin-top: 1em;
+	margin: 0;
 	border: 0.1em solid black;
 }
 
 footer p{
 	text-align: center;
+	font-size: 12px;
 }
 
 /*---------------------------- Form Formatting --------------------------*/
