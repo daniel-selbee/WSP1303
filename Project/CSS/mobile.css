@@ -32,12 +32,14 @@ body {
 
 #twitter{
 	float: none;
+	display: none;
 	
 }
 
 
 #pintrest{
 	float: none;
+	display: none;
 }
 
 
