@@ -47,12 +47,17 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
 	width: 100%;
+	max-width: 640px;
 	padding: 0;
 	display: block;
+	margin: 0 auto;
 }
 
 li {
+	float: none;
+	clear: both;
 	display: block;
+	max-width: 640px;
 	width: 100%;	
 	text-align: center;
 	font-size: 14px;
@@ -235,6 +240,7 @@ form input[type=submit]{
 	background-position: left top;
 	clear: both;
 	margin-top: 0;
+	margin-bottom: 0;
 	border: 0.063em solid black;
 }
 

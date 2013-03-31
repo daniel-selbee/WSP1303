@@ -244,7 +244,7 @@ form input[type=submit]{
 /*---------------------------- About Us Page Formatting -------------------------*/
 .AU_Article {
 	background-image: url(../images/Text_Background.png);
-	background-repeat: repeat;
+	background-repeat: repeat-x;
 	background-position: left top;
 	clear: both;
 	margin-top: 0;
