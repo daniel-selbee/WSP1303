@@ -52,7 +52,7 @@ body {
 
 /* --------------------------- Global Nav Formatting ------------------- */
 
-nav ul {
+ul{
 	font-family: 'Open Sans', sans-serif;
 	list-style-type: none;
 	float: right;
@@ -61,7 +61,7 @@ nav ul {
 	display: block;
 }
 
-nav ul li {
+li{
 	display: block;
 	width: 8em;	
 	float: right;
@@ -78,7 +78,7 @@ nav ul li {
 	background: -o-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #c7a276 0%,#62503a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */	
+	/*WEB GRADIENT GENERATOR FOR IE DID NOT VALIDATE*/	
 }
 
 nav ul li a{
@@ -236,7 +236,6 @@ form input[type=submit]{
 	background: -o-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #c7a276 0%,#62503a 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #c7a276 0%,#62503a 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7a276', endColorstr='#62503a',GradientType=0 ); /* IE6-9 */
 }
 
 /*---------------------------- Home Page Formatting -----------------------------*/
