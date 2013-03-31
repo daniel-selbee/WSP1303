@@ -34,7 +34,9 @@ body {
 /*REMOVE MOBILE DISPLAY*/
 #mobile_logo, #mobile_logo img{
 	display: none;
-	float: left;	
+	float: left;
+	visibility: hidden;
+	left: -999999px;
 }
 
 /*---------------------------- Social Media Formatting ----------------------*/
