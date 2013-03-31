@@ -26,18 +26,18 @@ body {
 
 #facebook{
 	display: none;
+	float: none;
 }
 
 
 #twitter{
-	float: right;
-	width: 7%;
+	float: none;
+	
 }
 
 
 #pintrest{
-	float: right;
-	width: 7%;
+	float: none;
 }
 
 
