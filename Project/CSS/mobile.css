@@ -2,7 +2,7 @@
 
 /* --------------------------- General Body Formatting ------------------- */
 body {
-	max-width: 972.8px; /* 1024*.95 */
+	max-width: 640px;
 	width: 95%;
 	margin: 0 auto;
 	background-color: #e0d0aa;
