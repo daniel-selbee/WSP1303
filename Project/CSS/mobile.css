@@ -253,9 +253,6 @@ form input[type=submit]{
 	-moz-column-count:1; /* Firefox */
 	-webkit-column-count:1; /* Safari and Chrome */
 	column-count:1;
-	column-gap: 0;
-	margin: 0;
-	padding: 5px;
 	font-size: 1em;
 }
 
