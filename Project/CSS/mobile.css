@@ -11,8 +11,8 @@ body {
 /*---------------------------- Logo Formatting ------------------------------*/
 
 #logo{
-	width: 25%;
-	float: left;
+	width: 40em;
+	float: none;
 	margin-bottom: 0.80em;
 	padding: 0;
 }
